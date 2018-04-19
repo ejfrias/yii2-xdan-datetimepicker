@@ -4,17 +4,18 @@ namespace ejfrias\yii2_xdan_datetimepicker;
 
 use Yii;
 use yii\web\JqueryAsset;
+use yii\web\AssetBundle;
 
-class DateTimePickerAsset extends \yii\web\AssetBundle
+class DateTimePickerAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/xdan/datetimepicker';
+    public $sourcePath = __DIR__;
 
     public $js = [
-        'jquery.datetimepicker.js',
+        'jquery.datetimepicker.full.min.js',
     ];
 
     public $css = [
-        'jquery.datetimepicker.css',
+        'jquery.datetimepicker.min.css',
     ];
 
     public function init()
