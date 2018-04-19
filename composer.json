@@ -6,8 +6,7 @@
     "type": "yii2-extension",
     "authors": [],
     "require": {
-        "yiisoft/yii2": "*",
-        "ejfrias/datetimepicker" : "*"
+        "yiisoft/yii2": "*"
      },
      "autoload": {
         "psr-4": {
