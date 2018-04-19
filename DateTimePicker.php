@@ -1,6 +1,6 @@
 <?php
 
-namespace toxufe\yii2_xdan_datetimepicker;
+namespace ejfrias\yii2_xdan_datetimepicker;
 
 use yii\helpers\Html;
 use yii\helpers\Json;
