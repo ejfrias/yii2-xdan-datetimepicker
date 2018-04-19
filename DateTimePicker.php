@@ -17,9 +17,9 @@ class DateTimePicker extends \yii\widgets\InputWidget
 
     public $format = 'Y/m/d H:i';
     
-    public $defaultDate = false,
+    public $defaultDate = false;
     
-    public $defaultTime = false,
+    public $defaultTime = false;
 
     public $step = 60;
 
