@@ -16,6 +16,10 @@ class DateTimePicker extends \yii\widgets\InputWidget
     public $formatDate = 'Y/m/d';
 
     public $format = 'Y/m/d H:i';
+    
+    public $defaultDate = false,
+    
+    public $defaultTime = false,
 
     public $step = 60;
 
@@ -60,6 +64,8 @@ class DateTimePicker extends \yii\widgets\InputWidget
             'lang'            => $this->language ? : \Yii::$app->language,
             'format'          => $this->format,
             'formatDate'      => $this->formatDate,
+            'defaultDate'      => $this->defaultDate,
+            'defaultTime'      => $this->defaultTime,
             'step'            => $this->step,
             'yearStart'       => $this->yearStart,
             'yearEnd'         => $this->yearEnd,
