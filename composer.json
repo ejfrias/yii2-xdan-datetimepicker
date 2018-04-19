@@ -10,7 +10,7 @@
      },
      "autoload": {
         "psr-4": {
-            "ejfrias\\yii2-xdan-datetimepicker\\" : ""
+            "ejfrias\\yii2_xdan_datetimepicker\\" : ""
         }
     },
     "extra": {
